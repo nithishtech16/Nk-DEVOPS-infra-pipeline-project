@@ -11,6 +11,6 @@ module "ec2" {
   ami_id            = "ami-0e7f9c9fced6cfb10"
   instance_type     = "t2.micro"
   subnet_id         = module.vpc.subnet_id
-  ec2_count         = 1
+  ec2_count         = 3
   env               = "dev"
 }
